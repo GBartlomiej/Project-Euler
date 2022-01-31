@@ -19,4 +19,3 @@ def erasto(n):
     return [p for (p,b) in zip(primes,shouldBe) if b][2:]
 
 print(getNthPrime(10001))
-print(erasto(10))
